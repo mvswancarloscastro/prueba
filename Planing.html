@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">	
+    <head>
+        <meta charset="utf-8">
+        <title>Fase 3 Construcción: Crear un OVI en formato WEB con HTML5 y CSS3</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-
+                    scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <link rel="stylesheet" type="text/css" href="css/conceptos_1.css">
+        <link rel="stylesheet" type="text/css" href="css/plannig.css">
+  </head>
+<body>
+    <header>
+        <div class="logotipo">
+            <img src="imagenes/logo.JPG" width="350" alt="">
+        </div>
+    </header>
+    <section class="main">
+	 </br><p><h1>Estructura básica de html5</h1></p>
+    </br><p>
+    	HTML No es un lenguaje de Programación. Es un lenguaje, marcado que nos permite crear estructura de un sitio web, Básicamente se trata de un conjunto de etiquetas que sirven para definir el texto y otros elementos que compondrán una página web, como imágenes, listas, vídeos, El HTML se creó en un principio con objetivos divulgativos de información con texto y algunas imágenes. No se pensó que llegara a ser utilizado para crear área de ocio y consulta con carácter multimedia (lo que es actualmente la web), de modo que, el HTML se creó sin dar respuesta a todos los posibles usos que se le iba a dar y a todos los colectivos de gente que lo utilizarían en un futuro. Sin embargo, pese a esta deficiente planificación, si que se han ido incorporando modificaciones con el tiempo, estos son los estándares del HTML. Numerosos estándares se han presentado ya. El HTML 4.01 es el último estándar a febrero de 2001. Actualización a mayo de 2005, en estos momentos está apunto de presentarse la versión 5 de HTML, de la que ya se tiene un borrador casi definitivo.
+    </p>
+
+    <p>
+    	HTML es un markup language, lo que significa que está escrito con códigos que puede leer una persona sin que sea necesario compilarlo primero. En otras palabras, el texto en una página web está «marcado» con estos códigos para dar instrucciones al navegador web sobre cómo mostrar el texto. Estas etiquetas de marcado son las propias etiquetas HTML.</br>Cuando escribes código en HTML, estás escribiendo etiquetas HTML. Todas las etiquetas HTML están hechas con un número de partes específicas, incluyendo:
+    </br>
+    	El carácter “menor que” <</br>
+    	Una palabra o carácter que determina qué etiqueta se está escribiendo
+    	Cualquier número de atributos HTML que se quiera usar, escritos de la forma nombre=”valor”
+    	</br>El carácter “mayor que” >
+    </p>
+          </br><p><h2>Etiquetas</h2></p>
+          </br><p>
+    	        Las etiquetas son la estructura básica del HTML. Estas etiquetas o tags se componen y contienen otras propiedades, como son los atributos y el contenido.</br>
+    	        HTML define un total de 91 etiquetas, de las cuales 10 se consideran obsoletas. Sin embargo, una etiqueta por sí sola a veces no contiene la suficiente información para estar completamente definida. Para ello contamos con los atributos: pares nombre-valor separados por "=" y escritos en la etiqueta inicial de un elemento después del nombre del elemento. El valor puede estar encerrado entre "comillas dobles" o 'simples'. Existen, también, algunos atributos que afectan al elemento por su presencia en la etiqueta de inicio, como puede ser el atributo <strong>ismap</strong> para el elemento <b>imagenes.</b>
+            </p>
+            <p>Esta sería la <strong>estructura general de una línea de código en lenguaje HTML</strong>:</p>
+               con un ejemplo:
+               <a href="Imagenes/html5.jpg" target="_blank">Ejemplo de enlace</a>
+              </br>Donde:
+              </br>•<a> Es la etiqueta o tag inicial y </a> la etiqueta de cierre.</br>• href y target son los atributos.</br>• http://www.pagina.com y _blank son las variables.</br>• Ejemplo de enlace es el contenido.
+                        Aunque también existen elementos vacíos que no necesitan tag de cierre, cuya estructura sería ésta:
+               <tag attribute1="value1" attribute2="value2" />
+                   Estos elementos vacíos no constan de contenido, como por ejemplo, los tags o imagenes.
+            </br><h2>Atributos</h2>
+         
+        </br><p><strong>TIPOS DE ATRIBUTOS</strong></p>
+               </br>Aunque cada una de las etiquetas HTML define sus propios atributos, encontramos algunos comunes a muchas o casi todas las etiquetas, que se dividen en cuatro grupos según su funcionalidad:
+            </br> <p>
+                     </br>•	Atributos básicos
+                     </br>•	Atributos de internacionalización
+                     </br>•	Atributos de eventos
+                     </br>•	Atributos de foco
+                  </p>
+                     </br><p><strong>ATRIBUTOS BÁSICOS</strong></p>
+  	                 </br><p>Los atributos básicos se utilizan en la mayoría de etiquetas <b>HTML</b> y <b>XHTML</b>, aunque adquieren mayor sentido cuando se utilizan hojas de estilo en cascada (CSS):</p>
+  	                <table>
+  	                    	<tr>
+  	  		                   <td>Atributo</td>
+  	  		                   <td>Descripción</td>
+  	  	                   </tr>
+  	  	                    <tr>
+  	  		                    <td>id="texto"</td>
+  	  		                    <td>Establece un indicador único a cada elemento</td>
+  	  	                  </tr>
+  	  	                  <tr>
+  	  		                  <td>class="texto"</td>
+                              <td>Establece la clase CSS que se aplica a los estilos del elemento</td>
+                          </tr>>
+                    </table>
+                </br><p><b>ATRIBUTOS DE INTERNACIONALIZACIÓN O I18N</b></p>
+                </br><p>Estos atributos se utilizan en aquellas páginas que muestran sus contenidos en varios idiomas y las que quieran indicar de forma explícita el idioma de sus contenidos:</p>
+                                  <table>
+  	                                	<tr>
+  	  		                               <td>Atributo</td>
+  	  		                               <td>Descripción</td>
+  	  	                               </tr>
+  	                                	<tr>
+  	  		                                <td>lang="codigo"</td>
+  	  		                                <td>Indica el idioma del elemento</td>
+  	                                	</tr>
+  	  	                                <tr>
+  	  		                                <td>dir</td>
+  	  		                                <td>Indica la dirección del texto</td>
+  	                            </table>
+                                </br><p><b>ATRIBUTOS DE EVENTOSN</b></p>
+                                 </br><p>Estos atributos se utilizan en las páginas web que incluyen código  JavaScript para realizar acciones dinámicas sobre los elementos de la página.Pueden ser utilizados por: todos los elementos</p>
+                                <table>
+  	  	                               <tr>
+  	  		                              <td>Atributo</td>
+  	  		                              <td>Descripción</td>
+  	  	                              </tr>
+  	                                  <tr>
+  	  		                             <td>onclick</td>
+  	  		                             <td>Ejecuta la acción cuando se realiza un clic sobre el elemento</td>
+  	  	                              </tr>
+  	  	                              <tr>
+  	  		                              <td>ondblclick</td>
+  	  		                              <td>IEjecuta la acción cuando se realiza un doble clic sobre el elemento</td>
+  	                            </table>
+                            </br><p>Pueden ser utilizados por:<b>"body"</b></p>
+  	                        <table>
+  	  	                          <tr>
+  	  		                          <td>Atributo</td>
+  	  		                          <td>Descripción</td>
+  	  	                          </tr>
+  	  	                          <tr>
+  	  		                          <td>onload</td>
+  	  		                          <td>Ejecuta la acción cuando se carga el documento</td>
+  	  	                          </tr>
+  	                        	  <tr>
+  	  		                         <td>onunload</td>
+  	  		                         <td>Ejecuta la acción cuando se abandona el documento</td>
+  	  	                         </tr>
+  	  	                         <tr>
+  	  		                         <td>onresize</td>
+  	  		                         <td>Ejecuta la acción cuando se ha modificado el tamaño de la ventana del navegador</td>
+                                     </tr>
+                            </table>
+                                    </br><p>Pueden ser utilizados por:elementos de formulario <b>y</b><b>"body"</b></p>
+                             <table>
+  	  	                               <tr>
+  	  		                              <td>Atributo</td>
+  	  		                              <td>Descripción</td>
+  	                            	  </tr>
+  	  	                              <tr>
+  	  		                               <td>onkeydown</td>
+  	  		                               <td>Ejecuta la acción cuando se detecta que la tecla esta pulsada</td>
+  	  	                             </tr>
+  	  	                             <tr>
+  	  		                              <td>onkeyup</td>
+  	  		                              <td>Ejecuta la acción cuando se detecta que se ha soltado la tecla pulsada</td>
+  	  	                             </tr>
+  	                      	         <tr>
+  	  		                              <td>onresize</td>
+  	  		                              <td>Ejecuta la acción cuando se ha modificado el tamaño de la ventana del navegador</td>
+  	  	                              </tr>
+  	  	                              <tr>
+  	  		                              <td>onkeypress</td>
+  	  		                              <td>Ejecuta la acción cuando se pulsa una tecla</td>
+                                           </tr>
+                            </table>
+                                     </br><p><b>Pueden ser utilizados por:</b> varios</p>
+  	                        <table>
+  	  	                            <tr>
+  	  		                            <td>Atributo</td>
+  	  		                            <td>Descripción</td>
+  	  		                            <td>Elementos que pueden usarlo</td>
+  	  	                            </tr>
+  	   	                            <tr>
+  	  		                            <td>onblur</td>
+  	  		                            <td>Ejecuta la acción cuando el elemento pierde el foco bien sea a través del ratón o por navegación tabulada</td>
+                                            <td>button,input,label,select,textarea,body</td>
+                                    </tr>
+  	  	                            <tr>
+  	  		                             <td>onfocus</td>
+  	  		                             <td>Ejecuta la acción cuando el elemento obtiene el foco bien sea a través del ratón o por navegación tabulada</td>
+  	  		                             <td>button,input,label,select,textarea,body</td>
+  	  	                             </tr>
+  	  	                             <tr>
+  	  		                             <td>onchange</td>
+  	  		                             <td>Ejecuta la acción cuando el valor de un control ha sido modificado</td>
+  	  		                             <td>input,select,textarea</td>
+  	  	                             </tr>
+  	  	                             <tr>
+  	  		                             <td>onkeypress</td>
+  	  		                             <td>Ejecuta la acción cuando se pulsa una tecla</td>
+                                         </tr>
+                                </table>
+                            </br><p>ATRIBUTOS DE FOCO</p>
+  	                        </br><p>Se le denomina foco o focus, cuando un control o elemento del documento ha sido seleccionado. Cuando ese elemento deja de estar seleccionado, "pierde el foco" y es el nuevo elemento seleccionado el que se dice que tiene "el foco".</p>
+  	                         <table>
+  	  	                                <tr>
+  	  		                               <td>Atributo</td>
+  	  		                               <td>Descripción</td>
+  	  	                              </tr>
+  	  	                              <tr>
+  	  		                              <td>accesskey="letra"</td>
+  	  		                              <td>Establece una tecla de acceso rápido a un elemento HTML</td>
+  	  	                              </tr>
+  	  	                              <tr>
+  	  		                             <td>tabindex="numero"</td>
+  	  		                             <td>Establece la posición del elemento en el orden de tabulación de la página (valor entre 0 y 32.767)</td>
+  	  	                               </tr>
+  	  	                               <tr>
+  	  		                               <td>onfocus, onblur</td>
+  	  		                               <td>Controlan los eventos JavaScript que se ejecutan cuando el elemento obtiene o pierde el foco</td>
+  	  	                             </tr>
+  	                         </table>
+                            </br><p><b>Valores</b></p>
+                        </br><p>Además de etiquetas y atributos, HTML define el término elemento para referirse a las partes que componen los documentos HTML. Como ya hemos mencionado antes, la estructura general de una línea de código en lenguaje HTML sería ésta:
+         	                 </p>
+                            </br><p><a href="Imagenes/valores.jpg" target="_blank">Ejemplo de Valores</a></p>
+                        </br><p>El lenguaje HTML clasifica a todos los elementos en dos grupos: elementos en línea o inline elements y elementos en bloque o block elements.</br>La diferencia entre ambos viene dada por el modelo de contenido, por el formato y la dirección. La principal diferencia entre los dos tipos de elementos es la forma en la que ocupan el espacio disponible en la página: los elementos en bloque siempre empiezan en una nueva línea y ocupan todo el espacio disponible hasta el final de la línea, mientras que los elementos en línea sólo ocupan el espacio necesario para mostrar sus contenidos.</p>
+                                 </br><p><a href="Imagenes/plantilla.jpg" target="_blank">Diseño Sitio Web</a></p>
+                                </br><p><h3><b>Objetivo General</h3></b>
+	                              </br>Fundamentar teóricamente a los estudiantes sobre las generalidades básicas del Diseño Web para que puedan ser utilizadas de forma correcta el lenguaje HTML5, y aplicarlos en la construcción de Sitios Web e implementarlos a través de sistemas de control de versiones.
+		                         </p>
+                                </br><p><h3><b>Objetivo Especifico 1</h3></b>
+		                             </br>Ofrecer información para que el estudiante pueda opera y administrar sistemas de versiones como GIT o GITHUB.
+			                      </p>
+                                </br><p><h3><b>Objetivo Especifico 2</h3></b>
+			                         </br>Brindar documentación para que el estudiante utilice de forma correcta el lenguaje HTML5. Para aplicarlos en la solución de problemas de construcción de sitios web.
+				                  </p>
+                                </br><p><h3><b>Objetivo Especifico 3</h3></b>
+				                       </br>Brindar pautas para que el estudiante pueda desarrollar Sitios Web que satisfagan las necesidades del usuario y dar recomendaciones concretas para su actualización.
+                                    </p>
+
+                            </br><p><h3><b>Bibliografia</h3></b></p>
+                            </br><p><a href="http://bibliotecavirtual.unad.edu.co:2051/login.aspx?direct=true&db=nlebk&AN=604069&lang=es&site=eds-live" target="_blank">http://bibliotecavirtual.unad.edu.co:2051/login.aspx?direct=true&db=nlebk&AN=604069&lang=es&site=eds-live</a></p>
+                            </br><p><a href="http://bibliotecavirtual.unad.edu.co:2051/login.aspx?direct=true&db=nlebk&AN=604069&lang=es&site=eds-live" target="_blank">http://bibliotecavirtual.unad.edu.co:2051/login.aspx?direct=true&db=nlebk&AN=604069&lang=es&site=eds-live</a></p>
+                            </br><p><a href="http://bibliotecavirtual.unad.edu.co:2051/login.aspx?direct=true&db=nlebk&AN=575945&lang=es&site=eds-live" target="_blank">http://bibliotecavirtual.unad.edu.co:2051/login.aspx?direct=true&db=nlebk&AN=575945&lang=es&site=eds-live</a></p>
+                            </br><p><a href="http://bibliotecavirtual.unad.edu.co:2051/login.aspx?direct=true&db=nlebk&AN=672978&lang=es&site=eds-live" target="_blank">http://bibliotecavirtual.unad.edu.co:2051/login.aspx?direct=true&db=nlebk&AN=672978&lang=es&site=eds-live</a></p> 
+                            </br><p><a href="http://bibliotecavirtual.unad.edu.co:2051/login.aspx?direct=true&db=nlebk&AN=575945&lang=es&site=eds-live" target="_blank">http://bibliotecavirtual.unad.edu.co:2051/login.aspx?direct=true&db=nlebk&AN=575945&lang=es&site=eds-live</a></p> 
+                            </br><p><a href="http://bibliotecavirtual.unad.edu.co:2051/login.aspx?direct=true&db=nlebk&AN=499243&lang=es&site=eds-live" target="_blank">http://bibliotecavirtual.unad.edu.co:2051/login.aspx?direct=true&db=nlebk&AN=499243&lang=es&site=eds-live</a></p> 
+        
+                        </br><p><a href="file:///F:/UNAD/Semestre%20V/DISE%C3%91OS%20DE%20SITIOS%20WEB%20-%20(301122A_764)/Guia_2/Estructura_html/index.html" target="_blank">Index.html</a></p>
+                                    
+
+
+
+
+    </section>               
+<footer>
+    <p>Carlos Alexander Castro Polanco Estundiante de Ingenieria de Sistemas</p>
+</footer>
+
+
+
+
+</body>
+</html>

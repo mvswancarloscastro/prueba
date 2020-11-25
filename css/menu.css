@@ -1,0 +1,45 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+.header{
+    width:90%;
+    max-width:1000px;
+    margin:20px auto;
+    font-family: "Helvetica";
+}
+ul, ol{
+    list-style:none;
+}
+
+.nav li a {
+    background:#001dd8;
+    color:#fff;
+    overflow:hidden;
+    text-decoration: none;
+    padding:10px 20px;
+    display:block;
+}
+
+.nav li a:hover{
+    background:#ffda24;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul {
+    display: block;
+}
+
+
+
+
